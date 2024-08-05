@@ -1,0 +1,7 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Sent KB/sec
+T01_DemoAir_Launch,600,3,2,5,7,13,1,43,0.000%,.15394,0.35,0.05
+T02_DemoAir_ClickLogin,600,3,3,6,8,16,1,32,0.000%,.15394,0.35,0.11
+T03_DemoAir_Credentials,600,24,23,36,37,52,6,255,0.000%,.15355,0.50,0.28
+T04_DemoAir_BookTickets,2250,3,2,5,7,14,1,62,0.000%,.56567,2.05,0.45
+T05_DemoAir_FlightHandler,2250,12,14,18,20,31,3,101,0.000%,.56510,1.03,0.59
+TOTAL,6300,8,4,19,25,36,1,255,0.000%,1.56258,4.20,1.46

@@ -1,0 +1,19 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1721373723932,65,T01_Hospital_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,17391,725,1,1,null,0,103,32
+1721373724034,65,Launch,200,OK,Thread Group 1-1,text,true,,17391,725,1,1,http://localhost/hospital/,59,0,32
+1721373724102,4,T02_Hospital_BookAppointment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3764,827,1,1,null,0,2,0
+1721373724103,4,BookAppointment,200,OK,Thread Group 1-1,text,true,,3764,827,1,1,http://localhost/hospital/hms/user-login.php,4,0,0
+1721373724109,4,T03_Hospital_CreateAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5832,885,1,1,null,0,0,0
+1721373724109,4,CreateAccount,200,OK,Thread Group 1-1,text,true,,5832,885,1,1,http://localhost/hospital/hms/registration.php,4,0,0
+1721373724114,25,T04_Hospital_Submit,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,5901,1151,1,1,null,0,52,0
+1721373724164,25,Submit,200,OK,Thread Group 1-1,text,true,,5901,1151,1,1,http://localhost/hospital/hms/registration.php,25,0,0
+1721373724419,14,T01_Hospital_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,17391,725,2,2,null,0,2,1
+1721373724420,14,Launch,200,OK,Thread Group 1-2,text,true,,17391,725,2,2,http://localhost/hospital/,14,0,1
+1721373724435,3,T02_Hospital_BookAppointment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,3764,827,2,2,null,0,2,0
+1721373724436,3,BookAppointment,200,OK,Thread Group 1-2,text,true,,3764,827,2,2,http://localhost/hospital/hms/user-login.php,3,0,0
+1721373724440,9,T03_Hospital_CreateAccount,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5832,885,2,2,null,0,1,0
+1721373724441,9,CreateAccount,200,OK,Thread Group 1-2,text,true,,5832,885,2,2,http://localhost/hospital/hms/registration.php,9,0,0
+1721373724450,7,T04_Hospital_Submit,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,5901,1153,2,2,null,0,15,0
+1721373724464,7,Submit,200,OK,Thread Group 1-2,text,true,,5901,1153,2,2,http://localhost/hospital/hms/registration.php,7,0,0
+1721373824194,0,T01_Hospital_Launch,,,Thread Group 1-1,,true,,0,0,2,2,null,0,0,0
+1721373824478,0,T01_Hospital_Launch,,,Thread Group 1-2,,true,,0,0,1,1,null,0,0,0

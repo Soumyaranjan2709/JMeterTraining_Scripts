@@ -1,0 +1,27 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1721373917597,44,Launch,200,OK,Thread Group 1-1,text,true,,3765,761,1,1,http://localhost/hospital/hms/user-login.php,44,0,24
+1721373917519,44,TXN_01_Hospital_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,3765,761,1,1,null,44,78,24
+1721373917645,32,Credential,200,OK,Thread Group 1-1,text,true,,19135,1916,1,1,http://localhost/hospital/hms/dashboard.php,10,0,0
+1721373917645,10,Credential-0,302,Found,Thread Group 1-1,text,true,,3734,999,1,1,http://localhost/hospital/hms/user-login.php,10,0,0
+1721373917657,20,Credential-1,200,OK,Thread Group 1-1,text,true,,15401,917,1,1,http://localhost/hospital/hms/dashboard.php,19,0,0
+1721373917679,5,Login,200,OK,Thread Group 1-1,text,true,,15401,842,1,1,http://localhost/hospital/hms/dashboard.php,4,0,0
+1721373917644,37,TXN_02_Hospital_ClickLogin,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,34536,2758,1,1,null,14,3,0
+1721373917685,17,BookAppointment,200,OK,Thread Group 1-1,text,true,,18549,822,1,1,http://localhost/hospital/hms/book-appointment.php,17,0,0
+1721373917685,17,TXN_03_Hospital_ClickBookAppointment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,18549,822,1,1,null,17,1,0
+1721373917703,20,Submit,200,OK,Thread Group 1-1,text,true,,18747,1054,1,1,http://localhost/hospital/hms/book-appointment.php,19,0,0
+1721373917703,20,TXN_04_Hospital_Submit,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,18747,1054,1,1,null,19,248,0
+1721373917972,5,Logout,200,OK,Thread Group 1-1,text,true,,17390,784,1,1,http://localhost/hospital/index.php,4,0,0
+1721373917972,5,TXN_05_Hospital_Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,17390,784,1,1,null,4,1,0
+1721373918003,5,Launch,200,OK,Thread Group 1-2,text,true,,3765,761,2,2,http://localhost/hospital/hms/user-login.php,5,0,1
+1721373918001,5,TXN_01_Hospital_Launch,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,3765,761,2,2,null,5,3,1
+1721373918010,13,Credential,200,OK,Thread Group 1-2,text,true,,19135,1916,2,2,http://localhost/hospital/hms/dashboard.php,6,0,0
+1721373918010,6,Credential-0,302,Found,Thread Group 1-2,text,true,,3734,999,2,2,http://localhost/hospital/hms/user-login.php,6,0,0
+1721373918017,6,Credential-1,200,OK,Thread Group 1-2,text,true,,15401,917,2,2,http://localhost/hospital/hms/dashboard.php,5,0,0
+1721373918024,6,Login,200,OK,Thread Group 1-2,text,true,,15401,842,2,2,http://localhost/hospital/hms/dashboard.php,5,0,0
+1721373918009,19,TXN_02_Hospital_ClickLogin,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-2,,true,,34536,2758,2,2,null,11,3,0
+1721373918032,17,BookAppointment,200,OK,Thread Group 1-2,text,true,,18549,822,2,2,http://localhost/hospital/hms/book-appointment.php,17,0,0
+1721373918031,17,TXN_03_Hospital_ClickBookAppointment,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,18549,822,2,2,null,17,2,0
+1721373918051,27,Submit,200,OK,Thread Group 1-2,text,true,,18747,1054,2,2,http://localhost/hospital/hms/book-appointment.php,25,0,0
+1721373918050,27,TXN_04_Hospital_Submit,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,18747,1054,2,2,null,25,5,0
+1721373918083,13,Logout,200,OK,Thread Group 1-2,text,true,,17390,784,2,2,http://localhost/hospital/index.php,13,0,0
+1721373918082,13,TXN_05_Hospital_Logout,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-2,,true,,17390,784,2,2,null,13,2,0
