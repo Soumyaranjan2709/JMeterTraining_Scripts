@@ -1,0 +1,13 @@
+Label,# Samples,Average,Min,Max,90% Line,Std. Dev.,Error %,Throughput,Received KB/sec,Avg. Bytes
+Launch,1088,2,1,18,3,1.26,0.00%,.3,0.69,2326.0
+T01_DemoAir_Launch,1088,2,1,18,3,1.26,0.00%,.3,0.69,2326.0
+ClickLogin,1088,1,0,64,2,2.57,0.00%,.3,0.70,2357.0
+T02_DemoAir_ClickLogin,1088,1,0,64,2,2.57,0.00%,.3,0.70,2357.0
+login_handler,1088,8,2,42,13,5.23,0.00%,.3,0.15,520.0
+customer_homepage,1088,11,2,43,17,6.28,0.00%,.3,0.82,2780.0
+T03_DemoAir_Credentials,1088,20,4,56,29,9.27,0.00%,.3,0.97,3300.0
+BookTickets,4352,1,0,68,3,2.13,0.00%,1.2,4.37,3703.0
+T04_DemoAir_BookTickets,4352,1,0,68,3,2.13,0.00%,1.2,4.37,3703.0
+view_flights_form_handler,4352,10,2,61,17,6.04,0.00%,1.2,2.20,1860.0
+T05_DemoAir_FlightHandler,4352,10,2,61,17,6.04,0.00%,1.2,2.20,1860.0
+TOTAL,25024,6,0,68,15,6.85,0.00%,7.0,17.86,2629.1
